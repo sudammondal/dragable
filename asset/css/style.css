@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.Form_Main {
+  background-color: #191919;
+  width: 100%;
+  height: 100vh; }
+  .Form_Main .MailForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; }
+    .Form_Main .MailForm .mail_form {
+      width: 300px;
+      height: auto;
+      background: #ffffff;
+      padding: 40px;
+      text-align: center;
+      -webkit-box-shadow: 3px 6px 9px 0px #000000e0;
+      box-shadow: 3px 6px 9px 0px #000000e0;
+      border-radius: 5px; }
+      .Form_Main .MailForm .mail_form .LogHead {
+        font-size: 42px;
+        line-height: 1;
+        text-transform: capitalize;
+        color: #707070;
+        text-align: center;
+        font-weight: 200;
+        margin-bottom: 20px; }
+      .Form_Main .MailForm .mail_form .Form {
+        margin-bottom: 30px; }
+        .Form_Main .MailForm .mail_form .Form .Input_item {
+          background: #d7d7d7d9;
+          margin-bottom: 5px;
+          display: block;
+          padding: 10px;
+          border-radius: 5px;
+          text-align: left; }
+          .Form_Main .MailForm .mail_form .Form .Input_item i {
+            margin: 0 7px;
+            font-size: 22px; }
+          .Form_Main .MailForm .mail_form .Form .Input_item input[type="password"],
+          .Form_Main .MailForm .mail_form .Form .Input_item input[type="text"] {
+            background: transparent;
+            border: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            outline: none;
+            width: 80%; }
+      .Form_Main .MailForm .mail_form button {
+        color: #fff;
+        background-color: #007bff;
+        padding: 8px 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+
+.Devices_Section {
+  width: 100%;
+  background: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .Devices_Section .Devices_form {
+    background: #ff5c2b;
+    padding-top: 40px;
+    width: 100%; }
+    .Devices_Section .Devices_form .Containt_main {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 230px 0; }
+      .Devices_Section .Devices_form .Containt_main .block_containt {
+        width: 270px;
+        height: 250px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative; }
+        .Devices_Section .Devices_form .Containt_main .block_containt .Containt_text {
+          text-align: center; }
+          .Devices_Section .Devices_form .Containt_main .block_containt .Containt_text .containt_Head {
+            font-size: 60px;
+            line-height: 1;
+            color: #fff;
+            font-weight: 100; }
+          .Devices_Section .Devices_form .Containt_main .block_containt .Containt_text .cotaint_pra {
+            margin: 0;
+            line-height: 1;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #fff; }
+        .Devices_Section .Devices_form .Containt_main .block_containt .dot {
+          content: "";
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          background-color: #ffffff;
+          border-radius: 50%;
+          cursor: pointer; }
+          .Devices_Section .Devices_form .Containt_main .block_containt .dot.dot_1 {
+            top: 0;
+            right: 0; }
+          .Devices_Section .Devices_form .Containt_main .block_containt .dot.dot_2 {
+            left: 0;
+            bottom: 0; }
+    .Devices_Section .Devices_form .Button_Item {
+      background-color: #e14b1e;
+      text-align: center;
+      padding: 20px 0; }
+      .Devices_Section .Devices_form .Button_Item button {
+        color: #020229;
+        background-color: #ffffff;
+        padding: 8px 30px;
+        margin: 0 5px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+        .Devices_Section .Devices_form .Button_Item button.active, .Devices_Section .Devices_form .Button_Item button:hover {
+          background-color: #020229;
+          color: #ffffff; }

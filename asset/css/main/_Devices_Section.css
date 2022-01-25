@@ -1,0 +1,92 @@
+.Devices_Section {
+  width: 100%;
+  background: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .Devices_Section .Devices_form {
+    background: #ff5c2b;
+    padding-top: 40px; }
+    .Devices_Section .Devices_form .Containt_main {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 60px 20px; }
+      .Devices_Section .Devices_form .Containt_main .block_containt {
+        width: 270px;
+        height: 250px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative; }
+        .Devices_Section .Devices_form .Containt_main .block_containt .Containt_text {
+          text-align: center; }
+          .Devices_Section .Devices_form .Containt_main .block_containt .Containt_text .containt_Head {
+            font-size: 60px;
+            line-height: 1;
+            color: #fff;
+            font-weight: 100; }
+          .Devices_Section .Devices_form .Containt_main .block_containt .Containt_text .cotaint_pra {
+            margin: 0;
+            line-height: 1;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #fff; }
+        .Devices_Section .Devices_form .Containt_main .block_containt::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 60px;
+          height: 60px;
+          background-color: #ffffff;
+          border-radius: 50%; }
+        .Devices_Section .Devices_form .Containt_main .block_containt::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 60px;
+          height: 60px;
+          background-color: #ffffff;
+          border-radius: 50%; }
+    .Devices_Section .Devices_form .Button_Item {
+      background-color: #e14b1e;
+      text-align: center;
+      padding: 20px 0; }
+      .Devices_Section .Devices_form .Button_Item button {
+        color: #020229;
+        background-color: #ffffff;
+        padding: 8px 30px;
+        margin: 0 5px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+        .Devices_Section .Devices_form .Button_Item button.active, .Devices_Section .Devices_form .Button_Item button:hover {
+          background-color: #020229;
+          color: #ffffff; }

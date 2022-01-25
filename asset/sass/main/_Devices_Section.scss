@@ -1,0 +1,90 @@
+.Devices_Section {
+    width: 100%;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Devices_form {
+        background: #ff5c2b;
+        padding-top: 40px;
+        width: 100%;
+        .Containt_main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 230px 0;
+            .block_containt {
+                width: 270px;
+                height: 250px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .Containt_text {
+                    text-align: center;
+                    .containt_Head {
+                        font-size: 60px;
+                        line-height: 1;
+                        color: #fff;
+                        font-weight: 100;
+                    }
+                    .cotaint_pra {
+                        margin: 0;
+                        line-height: 1;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        color: #fff;    
+    
+                    }
+                }
+                .dot {
+                    content: "";
+                    position: absolute;
+                    width: 60px;
+                    height: 60px;
+                    background-color: #ffffff;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    &.dot_1 {
+                    top: 0;
+                    right: 0;
+
+                    }
+                    &.dot_2 {
+                        left: 0;
+                        bottom: 0;
+
+                    }
+
+                }
+
+            }
+
+            
+        }
+        .Button_Item {
+            background-color: #e14b1e;
+            text-align: center;
+            padding: 20px 0;
+            button {
+                color: #020229;
+                background-color: #ffffff;
+                padding: 8px 30px;
+                margin: 0 5px;
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                outline: none;
+                box-shadow: none;
+                transition: all 0.5s ease;
+               
+                &.active,
+                &:hover {
+                    background-color: #020229;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
